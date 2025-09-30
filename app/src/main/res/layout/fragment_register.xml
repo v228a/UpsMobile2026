@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.register.RegisterFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16.25dp"
+        android:fontFamily="@font/labgrotesquebold"
+        android:letterSpacing="-0.01"
+        android:lineSpacingMultiplier="1.0"
+        android:text="Регистрация"
+        android:textColor="@color/blackstar"
+        android:textSize="30dp" />
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Theme.UpsMobile.Input"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/Theme.UpsMobile.Input.Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Имя"
+            android:inputType="phone"></com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Theme.UpsMobile.Input"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/Theme.UpsMobile.Input.Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Фамилия"
+            android:inputType="textPassword"></com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Theme.UpsMobile.Input"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/Theme.UpsMobile.Input.Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Номер телефона"
+            android:inputType="phone"></com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Theme.UpsMobile.Input"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/Theme.UpsMobile.Input.Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Пароль"
+            android:inputType="textPassword"></com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button"
+        style="@style/Theme.UpsMobile.Button"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="16.85dp"
+        android:text="Зарегистрироваться" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/labgrotesquemedium"
+        android:letterSpacing="0"
+        android:lineHeight="24dp"
+        android:text="Уже есть аккаунт?"
+        android:textAlignment="center"
+        android:textColor="@color/graytextedit"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/labgrotesquebold"
+        android:letterSpacing="0"
+        android:lineHeight="24dp"
+        android:text="Вход"
+        android:textAlignment="center"
+        android:textColor="@color/blackstar"
+        android:textSize="16sp" />
+</LinearLayout>

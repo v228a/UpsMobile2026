@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.UpsMobile.Input" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextColor">@color/graytextedit</item>
+        <item name="boxBackgroundColor">@color/graytexteditbackground</item>
+        <item name="boxBackgroundMode">filled</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="hintTextAppearance">@style/Theme.UpsMobile.Input.hint</item>
+        <item name="boxStrokeColor">@android:color/transparent</item>
+        <item name="boxStrokeWidth">0dp</item>
+
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="hintAnimationEnabled">false</item>
+
+    </style>
+
+    <style name="Theme.UpsMobile.Input.hint" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">14sp</item> <!-- Размер шрифта -->
+        <item name="android:layout_margin">0dp</item>
+
+        <item name="android:fontFamily">@font/labgrotesquemedium</item> <!-- Кастомный шрифт -->
+        <item name="android:textColor">@color/graytextedit</item> <!-- Цвет текста -->
+    </style>
+    <style name="Theme.UpsMobile.Input.Text">
+        <item name="singleLine">true</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/labgrotesquemedium</item>
+    </style>
+</resources>

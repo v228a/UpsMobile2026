@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="268dp"
+    android:background="@drawable/backgroud_dialog"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingStart="24dp"
+    android:paddingEnd="22dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/labgrotesquebold"
+        android:text="СУНЦ УрФУ"
+        android:textColor="#191919"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/labgrotesqueregular"
+        android:gravity="center"
+        android:lineHeight="24dp"
+        android:text="В данном центре можно подготовиться к поступлению, а также к олимпиадам по всем школьным предметам"
+        android:textColor="#A8AAAC"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Theme.UpsMobile.Button"
+        android:layout_width="match_parent"
+
+        android:layout_marginTop="12dp"
+        android:text="Назад" />
+
+</LinearLayout>

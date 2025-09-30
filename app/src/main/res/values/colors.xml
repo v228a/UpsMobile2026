@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="blackstar">#333333</color>
+    <color name='support_black'>#191919</color>
+    <color name="primary">#BA2135</color>
+    <color name='gray'>#979797</color>
+    <color name='middlegray'>#A8AAAC</color>
+    <color name='graytextedit'>#979797</color>
+    <color name='graytexteditbackground'>#F0F0F0</color>
+</resources>
