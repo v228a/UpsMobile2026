@@ -76,6 +76,7 @@ class QuizFragment : Fragment() {
         root.findViewById<TextView>(R.id.textTitleQuiz).text = test.title
         root.findViewById<TextView>(R.id.textQuestion).text = test.questions[currentIndex].text
         root.findViewById<TextInputEditText>(R.id.textinput).setText("")
+        root.findViewById<TextView>(R.id.errorText).visibility = View.GONE
         renderProgress(root)
     }
 
